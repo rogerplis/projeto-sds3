@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <NavBar />
-      <div className="App">
+      <div className="content">
         <h1 className="text-primary py-3">DashBoard de Vendas</h1>
         <div className="row px-3">
           <div className="col-sm-6">
@@ -16,7 +16,7 @@ function App() {
             <BarChart/>
           </div>
           <div className="col-sm-6">
-            <h5>Taxa de retorno</h5>
+            <h5>Teste</h5>
             <DonutChart/>
           </div>
         </div>
