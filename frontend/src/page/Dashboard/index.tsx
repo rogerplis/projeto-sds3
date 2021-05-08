@@ -9,7 +9,7 @@ function Dashboard() {
     return (
         <>
       <NavBar />
-      <div className="content">
+      <div className="container">
         <h1 className="text-primary py-3">DashBoard de Vendas</h1>
         <div className="row px-3">
           <div className="col-sm-6">
