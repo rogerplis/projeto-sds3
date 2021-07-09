@@ -29,7 +29,7 @@ public class SpringFoxConfig {
     private ApiInfo metaInfo() {
         ApiInfo apiInfo = new ApiInfo(
                 "Api para estudo ",
-                "Api criada no estudo do Nelio Alves",
+                "API criada no estudo do Nelio Alves",
                 "1.01",
                 "Terms of Service",
                 new Contact("Rogerio Bastos", "https://github.com/rogerplis",
