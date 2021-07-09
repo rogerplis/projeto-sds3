@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping(value = "/sales")
+@RequestMapping(value = "/api")
 public class SaleController {
 
     @Autowired
@@ -24,17 +24,17 @@ public class SaleController {
 
 
 
-    @GetMapping
+    @GetMapping(value = "/sales")
     public ResponseEntity<Page<SaleDTO>> findAll(Pageable pageable) {
         Page<SaleDTO> list = service.findAll(pageable);
         return ResponseEntity.ok(list);
     }
-    @GetMapping(value = "/amount-by-seller")
+    @GetMapping(value = "/sales/amount-by-seller")
     public ResponseEntity<List<SalerSumDTO>> amountGroupedBySeller() {
         List<SalerSumDTO> list = service.amountGroupedBySeller();
         return ResponseEntity.ok(list);
     }
-    @GetMapping(value = "/success-by-seller")
+    @GetMapping(value = "/sales/success-by-seller")
     public ResponseEntity<List<SalerSuccessDTO>> successGroupedBySeller() {
         List<SalerSuccessDTO> list = service.successGroupedBySeller();
         return ResponseEntity.ok(list);
