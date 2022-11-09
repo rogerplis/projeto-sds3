@@ -1,0 +1,28 @@
+{
+  "properties": [
+    {
+      "name": "contato.disco.diretorio-ponto",
+      "type": "java.lang.String",
+      "description": "Description for contato.disco.diretorio-ponto."
+    },
+    {
+      "name": "contato.disco.diretorio-fotos",
+      "type": "java.lang.String",
+      "description": "Description for contato.disco.diretorio-fotos."
+    },
+    {
+      "name": "contato.disco.raiz",
+      "type": "java.lang.String",
+      "description": "Description for contato.disco.raiz."
+    },
+    {
+      "name": "roger.app.jwtExpirationMs",
+      "type": "java.lang.String",
+      "description": "Description for roger.app.jwtExpirationMs."
+    },
+    {
+      "name": "roger.app.jwtSecret",
+      "type": "java.lang.String",
+      "description": "Description for roger.app.jwtSecret."
+    }
+  ] }
